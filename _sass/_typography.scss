@@ -1,0 +1,69 @@
+body {
+    font: $font-weight-normal #{$base-font-size}/#{$line-height-base} $font-family-base;
+    color: $text-color;
+    background-color: $background-color;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-feature-settings: "kern" 1;
+    -moz-font-feature-settings: "kern" 1;
+    -o-font-feature-settings: "kern" 1;
+    font-feature-settings: "kern", "liga", "pnum";
+    font-kerning: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-family-heading;
+  font-size: $base-font-size;
+  line-height: $line-height-heading;
+  font-weight: $font-weight-bold;
+  margin: 0 0 $spacing-small;
+}
+
+h1 {
+  font-size: 3.0rem;
+}
+
+h2 {
+  font-size: 2.6rem;
+}
+
+h3 {
+  font-size: 2.4rem;
+}
+
+h4 {
+  font-size: 2.0rem;
+}
+
+h5,
+h6 {
+  font-size: 1.6rem;
+}
+
+p {
+  margin: 0 0 $spacing-small;
+  font-weight: $font-weight-light;
+}
+
+em {
+  font-style: italic;
+}
+
+small {
+  font-size: 80%;
+}
+
+a {
+  color: $action-color;
+  text-decoration: none;
+
+  &:active,
+  &:focus,
+  &:hover {
+    color: shade($action-color, 25%);
+  }
+}

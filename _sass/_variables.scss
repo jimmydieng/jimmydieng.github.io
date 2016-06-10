@@ -1,0 +1,40 @@
+// Our variables
+$helvetica: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+$font-family-base: "Open Sans", $helvetica, "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-heading: $font-family-base;
+
+
+// Font Weights
+$font-weight-normal: 400;
+$font-weight-light: 300;
+$font-weight-bold: 700;
+
+
+// Font Sizes
+$base-font-size:   16px;
+
+
+// Line Heights
+$line-height-base: 1.5;
+$line-height-heading: 1.2;
+
+
+// Spacing
+$spacing-base: $line-height-base * 1em;
+$spacing-small: $spacing-base / 2;
+$spacing-unit:     30px;
+
+
+// Coloring
+$text-color:       #111;
+$background-color: #fff;
+$action-color:     #337ab7;
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+
+
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}

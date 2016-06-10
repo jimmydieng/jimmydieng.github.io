@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<div class="main">
+  <div class="main-inner container">
+
+    <img src="{{ site.author.thumb | prepend: site.baseurl }}" alt="author thumb" class="dot">
+    <h3> Hi! I'm <strong itemprop="name">{{ site.author.name }}</strong>, an <em itemprop="jobTitle">{{ site.author.job }}</em>.</h3>
+    <h3>{{ site.author.bio }}</h3>
+
+    {% include social.html %}
+
+  </div>
+</div>

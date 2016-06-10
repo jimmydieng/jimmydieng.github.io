@@ -1,0 +1,28 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Your awesome title
+email: your-email@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+  description.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+
+
+# Author settings
+author:
+  name      : Jimmy Dieng
+  job       : Android Developer
+  bio       : "Android enthusiast, always looking for the interesting projects and good coffee."
+  thumb     : /images/author.jpg
+  github    : https://github.com/jimmydieng
+  linkedin  : https://linkedin.com/in/jimmydieng
+  android  : "https://play.google.com/store/apps/developer?id=Jimmy D Production"
+
+# Build settings
+markdown: kramdown
